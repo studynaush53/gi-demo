@@ -9,11 +9,11 @@ jobs:
   Test:
     runs-on: ubuntu-latest
     steps:
-      - name: "Testing"
+      - name: Testing
         run: echo"Testing thammudu"
 
   Deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: "Step Deploy"
-        run: echo "dhana dhan
+      - name: Step Deploy
+        run: echo "dhana dhan"
