@@ -7,6 +7,4 @@ jobs:
       - name: Hello Step
         run: |
         echo "This is no what i meant to be"
-        uname -i
-        who
-        date
+        echo "Does this works only on echo"
