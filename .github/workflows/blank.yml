@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Testing
-        run: echo"Testing thammudu"
+        run: echo "Testing thammudu"
 
   Deploy:
     runs-on: ubuntu-latest
