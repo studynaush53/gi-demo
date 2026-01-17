@@ -1,13 +1,19 @@
 name: Hello world
 on: workflow_dispatch
 jobs:
-  hello:
+  Build:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello Step
-        run: |
-         echo "This is no what i meant to be"
-         echo "Does this works only on echo"
-         uname -i
-         date
-         whoami
+      - name: Build Step
+        run: echo "Build Step"
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Testing"
+        run: echo"Testing thammudu"
+
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Step Deploy"
+        run: echo "dhana dhan
