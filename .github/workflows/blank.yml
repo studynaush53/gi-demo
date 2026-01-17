@@ -5,4 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello Step
-        run: echo "Welcome to Jurrasic Park"
+        run: |
+        echo "This is no what i meant to be "
+        uname -i
+        who
+        date
