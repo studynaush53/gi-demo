@@ -6,5 +6,8 @@ jobs:
     steps:
       - name: Hello Step
         run: |
-        echo "This is no what i meant to be"
-        echo "Does this works only on echo"
+         echo "This is no what i meant to be"
+         echo "Does this works only on echo"
+         uname -i
+         date
+         whoami
