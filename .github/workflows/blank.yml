@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Hello Step
         run: |
-        echo "This is no what i meant to be "
+        echo "This is no what i meant to be"
         uname -i
         who
         date
