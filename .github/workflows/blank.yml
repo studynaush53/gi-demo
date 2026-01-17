@@ -1,16 +1,19 @@
-name: Hello world
+name: Github action demo
 on: 
   push:
-    branches:
-      - main
-      - develop
-      - 'release/**'
+    # branches:
+    #   - main
+    #   - develop
+    #   - 'release/**'
 jobs:
-  Build:
+  Actoins_demo:
     runs-on: ubuntu-latest
     steps:
-      - name: Build Step
-        run: echo "My name is ${{ vars.MY_NAME }}"
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Print index.html
+        run: cat index.html
+        # run: echo "My name is ${{ vars.MY_NAME }}"
         
   # Test:
   #   runs-on: ubuntu-latest
