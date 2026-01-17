@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build Step
-        run: echo "Build Step"
+        run: echo "My name is ${{ vars.MY_NAME }}"
         
   # Test:
   #   runs-on: ubuntu-latest
